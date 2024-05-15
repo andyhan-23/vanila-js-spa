@@ -13,5 +13,13 @@
     "@babel/core": "^7.24.5",
     "@babel/preset-env": "^7.24.5",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "msw": "^2.3.0"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
   }
 }
