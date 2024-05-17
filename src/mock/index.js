@@ -1,4 +1,4 @@
-import { setupWorker } from "msw/browser";
+import { setupWorker } from "msw";
 import main from "../api/get-main";
 import detail from "../api/get-detail";
 

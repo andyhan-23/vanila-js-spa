@@ -1,7 +1,11 @@
 import initMocks from "./mock";
+import axios from "axios";
 
-console.log("hello");
+initMocks();
 
-if (true) {
-  initMocks();
-}
+const data = async () => {
+  const data = await axios.get("/main");
+  console.log(data.data);
+};
+
+data();
