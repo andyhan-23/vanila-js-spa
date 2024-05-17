@@ -1,1 +1,3 @@
-console.log("hello");
+import initMocks from "./mock";
+
+initMocks();
