@@ -4,7 +4,7 @@ class Router {
   }
 
   addRoute(pattern, page) {
-    const regexString = new RegExp(`^${pattern}$`);
+    const regexString = new RegExp(`^${pattern}`);
     this.routes.push({ regexString, page });
     return this;
   }
