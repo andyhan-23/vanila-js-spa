@@ -1,4 +1,4 @@
-export const addClickEventToItems = router => {
+export const addClickEventToItem = router => {
   const listContainer = document.querySelectorAll("li");
   listContainer.forEach(li => {
     li.addEventListener("click", () => {
