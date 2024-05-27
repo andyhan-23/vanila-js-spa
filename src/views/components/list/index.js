@@ -38,7 +38,6 @@ const articleTemplate = (list, id) => `
 </article>
 `;
 
-//Todo: JAE_28 티켓에서 컨트롤러 구현을 통해 list를 받아올 예정입니다.
 const listComponent = list => {
   listContainerRender();
   const listArr = Object.values(list);
