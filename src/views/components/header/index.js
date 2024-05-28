@@ -1,5 +1,5 @@
-import HEADER_LOGO from "../../../logo/header/logo-image.png";
-import "./index.css";
+//import HEADER_LOGO from "../../../logo/header/logo-image.png";
+//import "./index.css";
 
 const headerTemplate = () => {
   `

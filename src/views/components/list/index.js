@@ -1,4 +1,4 @@
-import "./index.css";
+//import "./index.css";
 import formatDate from "./format-date";
 
 const listTemplate = `

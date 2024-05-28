@@ -4,7 +4,6 @@ import { addClickEventToLogo } from "./click";
 function DetailController(router, model) {
   this.detailPage = async id => {
     try {
-      const list = await model.mainList();
       const articleItem = await model.articleItem(id);
       detailPage(articleItem);
       addClickEventToLogo(router);
