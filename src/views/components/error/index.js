@@ -1,4 +1,4 @@
-//import "./index.css";
+import "./index.css";
 
 const errorTemplate = `
     <section id="error_container">

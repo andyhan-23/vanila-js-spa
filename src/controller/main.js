@@ -1,5 +1,5 @@
 import mainPage from "../views/pages/main";
-import { addClickEventToItems } from "./click";
+import { addClickEventToItem } from "./click";
 import { addClickEventToLogo } from "./click";
 
 function MainController(router, model) {
@@ -7,7 +7,7 @@ function MainController(router, model) {
     try {
       const list = await model.mainList();
       mainPage(list);
-      addClickEventToItems(router);
+      addClickEventToItem(router);
       addClickEventToLogo(router);
     } catch (error) {
       if (import.meta.env.DEV)

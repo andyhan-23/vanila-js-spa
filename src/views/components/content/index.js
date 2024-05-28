@@ -1,4 +1,4 @@
-//import "./index.css";
+import "./index.css";
 import formatDate from "../list/format-date";
 
 const contentTemplate = (createdDate, detailContent, image, title) => ` 
