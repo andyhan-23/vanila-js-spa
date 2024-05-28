@@ -1,10 +1,10 @@
-import BANNER_LOGO from "../../../logo/banner/logo-image.png";
-import "./index.css";
+//import BANNER_LOGO from "../../../logo/banner/logo-image.png";
+//import "./index.css";
 
 const bannerTemplate = `
 <footer id="banner_container">
     <div id="banner_logo_container">
-        <img src="${BANNER_LOGO}" alt="로고 아이콘" />
+       
     </div>
     <section>
         <div id="banner_title_container">
