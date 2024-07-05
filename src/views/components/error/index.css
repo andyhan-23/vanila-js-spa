@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 0 40px;
   box-sizing: border-box;
+  height: 35vh;
 }
 
 #error_inner_container {
