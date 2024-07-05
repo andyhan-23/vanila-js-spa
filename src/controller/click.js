@@ -2,6 +2,7 @@ export const addClickEventToItem = router => {
   const listContainer = document.querySelectorAll("li");
   listContainer.forEach(li => {
     li.addEventListener("click", () => {
+      window.scrollTo(0, 0);
       window.history.pushState({}, "", `/detail/${li.id}`);
       router.navigate(`/detail/${li.id}`);
     });
