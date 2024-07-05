@@ -15,4 +15,6 @@
   background: rgba(2, 9, 19, 0.91);
   padding: 60px 24px;
   margin-top: 192px;
+  bottom: 0;
+  position: relative;
 }
